@@ -502,6 +502,24 @@ flex-direction: column;
   border-radius: 20px;
 }
 
+.offer-medium .popular {
+  background-color: #E99142;
+    color: #224B79;
+    padding: 10px 41px;
+    transform: rotate(-38deg);
+    align-self: self-start;
+    position: relative;
+    top: 14px;
+    right: 31px;
+    font-weight: 700;
+    clip-path: polygon(20% 0%, 71% 0%, 100% 99%, 0 100%);
+  box-shadow: 3px 3px 9px 0px rgba(0,0,0,1);
+  font-family: "Ubuntu", sans-serif;
+  
+
+}
+
+
 .offer-big {
   display: flex;
   width: 1499px;
