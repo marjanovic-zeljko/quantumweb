@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta
+      name="google-site-verification"
+      content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>
+      Marketing Agency | Web development | Web design Quantum Innovations
+    </title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navigation-menu" id="desktop-menu">
+      <div class="navigation-logo">
+        <a href="index.html"><img src="/logo/logo.png" alt="logo" /></a>
+      </div>
+      <div class="navigation-links">
+        <a href="#whoweare"><li>Ko smo mi</li></a>
+        <a href="#projects"><li>Rezultati klijenata</li></a>
+        <a href="#tools"><li>Alati i usluge</li></a>
+        <a href="#contactform"><li>Kontakt</li></a>
+      </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- hamburger menu start -->
+    <div id="menu">
+      
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+     
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#whoweare">Ko smo mi</a></li>
+          <li><a href="#projects">Rezultati klijenata</a></li>
+          <li><a href="#tools">Alati i usluge</a></li>
+          <li><a href="#contactform">Kontakt</a></li>
+        </ul>
+      </nav> 
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+    <!-- hamburger menu end -->
+
+    <!-- banner start -->
+    <div class="banner-container">
+      <div class="banner-left-side">
+        <h1>Inovativna digitalna marketing agencija</h1>
+        <p>
+          ● Naš posao je da tvoj biznis predstavimo internetu na najbolji način.
+        </p>
+        <p>
+          ● Da ti pronađemo nove klijente za tvoje usluge, povećamo prodaju i
+          profit.
+        </p>
+        <p>
+          ● Uz pomoć originalnoh foto-video sadržaja na web sajtu, instagramu
+          i/ili facebooku.
+        </p>
+        <p>
+          ● I uz napredne marketinške alate: PPC oglašavanje, SEO, google ads
+          itd.
+        </p>
+        <a href="#contactform"><button class="main-btn">Kontaktiraj nas</button></a>
+        <p style="margin-top: 10px;">
+          <strong>Besplatno je </strong> <br>
+        </p>
+      </div>
+      <div class="banner-right-side">
+        <img src="/banner-image/banner-image.png" alt="banner-image" />
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- project start  -->
+    <div class="heading-container">
+      <h2>Naši uspešni projekti i zadovoljni klijenti</h2>
+    </div>
+    <section>
+      <div class="swiper mySwiper container" id="projects">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/projects/megateks.png" alt="mega-teks-paracin" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="/projects/bodytransform.png"
+                  alt="milan-body-transform"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="/projects/finansijskisavetnik.png"
+                  alt="finanskijski-savetnik"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/projects/ckene.png" alt="ckene" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/projects/aod.png" alt="aod" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/projects/medialink.png" alt="media-link" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <div class="paragraph-container">
+      <p>
+        Klijenti kroz par meseci saradnje sa nama naplaćuju više svoje usluge,
+        imaju veći broj klijenata, više poziva i saradnji i izdvajaju se od
+        konkurencije u gradu.
+      </p>
+    </div>
+    <!-- project end -->
+
+    <!-- section why need start  -->
+    <div class="why" id="whoweare">
+      <div class="why-left">
+        <img src="/why/why-us.png" alt="why-us" />
+      </div>
+      <div class="why-right">
+        <h3>
+          U 2023. godini ulaganje u digitalni marketing nije luksuz već moranje.
+        </h3>
+        <p>
+          Ali samo ukoliko želiš da se tvoj biznis razvija, traje i napreduje u
+          budućnosti
+        </p>
+        <p>
+          Zamisli svoj život bez telefona i interneta. Nemoguće je, jel da? Isto
+          tako je i sa tvojim biznisom. Bilo da si fitnes trener, stomatolog, 
+          automehaničar, imaš salon lepote, baviš se psihoterapijom ili si
+          nutricionista,  ako te nema na googlu, facebooku i instagramu, tvoj
+          biznis kao da NE postoji.
+        </p>
+      </div>
+    </div>
+    <!-- section why need end -->
+
+    <!-- product card start -->
+    <div class="priceing-container" id="tools">
+      <div class="priceing-heading">
+        <h4>Alati za tvoj biznis</h4>
+      </div>
+
+      <div class="priceing-wrapper"><div class="priceing-card">
+        <img src="/product-card/web.png" alt="web-card" />
+        <h5>Unikatan web sajt</h5>
+        <p>
+          Potencijalni klijenti će prvo želeti da vide tvoj web sajt pre nego
+          što te pozovu i angažuju.
+        </p>
+        <p>
+          Web sajt je onlajn vizit karta biznisa.  A jedina gora stvar od
+          nemanja web sajta u 2023. god. je ako imate sajt  koji koči, izgleda
+          jeftino i neprofesionalno.  Naši web sajtovi su moderni, brzi i
+          kvalitetni.
+        </p>
+      </div>
+
+      <div class="priceing-card seo">
+        <img src="/product-card/seo.png" alt="seo-card" />
+        <h5>SEO</h5>
+        <p>
+          Ukratko od ovoga zavisi kada neko ukuca “zubari niš” ili 
+          “prenoćište beograd” ili “teretane novi sad” da li češ se pojaviti na
+          početku prve strane googla, na trećoj strani ili se nećešpojaviti uopšte. 
+          Skup web sajt koji niko ne vidi ti ne vredi ništa.
+
+        </p>
+        
+      </div>
+
+      <div class="priceing-card">
+        <img src="/product-card/mediamark.png" alt="marketing-card" />
+        <h5>Social media marketing
+          foto+video</h5>
+        <p>
+          Kada te neko potraži na fb ili instagramu da li vidi profesionalno
+          sredjen profil sa tvojiim uslugama i rezultatima?
+          Ili zatekne neaktivan nalog, gde mu nije jasno ni ko radi, ni šta radi,
+          ni kako da dođe do tebe?
+          Zalažemo se za kreiranje organskog sadržaja, izlazimo na teren,
+          fotkamo i snimamo tvoj biznis i prikazujemo ga profesionalno.
+
+        </p>
+        
+      </div>
+
+      <div class="priceing-card ppc">
+        <img src="/product-card/ppc.png" alt="ppc-card" />
+        <h5>PPC oglašavanje</h5>
+        <p>
+          Da li bi platio 200e za reklamu ako bi ti ona donela 600e zarade? Naravno da bi. Plaćeno oglašavanje, i te kako ima smisla ukoliko imaš
+dobar web sajt. Doneće ti konkretne pozive i klijente za posao.  Budžet kreiramo zajedno u skladu sa vašim ciljevima i mogućnostima.
+
+        </p>
+        
+      </div>
+
+      <div class="priceing-card">
+        <img src="/product-card/Mask group-3.png" alt="email-card" />
+        <h5>Email kampanje</h5>
+        <p>
+          Email je jedina platforma na kojoj ne zavisiš od algoritma.
+          Mejlove koje mi kreiramo ne završavaju u spam, čitani su
+          i teraju čitaoce na kupovinu tvojih proizvoda ili usluga.
+
+        </p>
+        
+      </div></div>
+      
+
+      
+      
+    </div>
+    <!-- product card end -->
+
+    <!-- offers paket start -->
+    <div class="offer-container">
+      <div class="priceing-heading">
+        <h5>Paketi usluga</h5>
+        
+          <p>
+            Klijenti kroz par meseci saradnje sa nama naplaćuju više svoje usluge,
+            imaju veći broj klijenata, više poziva i saradnji i izdvajaju se od
+            konkurencije u gradu.
+          </p>
+        
+      </div>
+    <div class="offer-smallest">
+      <h6>Basic paket</h6>
+      <span class="offer-price">150-300<span class="gold">€</span></span>
+      <p>Za frilensere, fitnes trenere, apartmane, zanatlije.</p>
+      <div class="offer-btn-wrapper">
+      <button class="offer-btn">One page web sajt</button>
+      <button class="offer-btn">PPC oglašavanje</button>
+      <button class="offer-btn">SEO-prvi na Google-u</button>
+    </div>
+    </div>
+    <div class="offer-medium">
+      <h6>Klasik paket</h6>
+      <span class="offer-price">550-850<span class="gold">€</span></span>
+      <p>Za teretane, salone lepote, servisere, nutricioniste, kafiće.</p>
+      <div class="offer-btn-wrapper">
+      <button class="offer-btn">Klasičan web sajt</button>
+      <button class="offer-btn">Foto materijal biznisa</button>
+      <button class="offer-btn">PPC oglašavanje</button>
+      <button class="offer-btn">SEO-prvi na Google-u</button>
+    </div>
+    </div>
+    <div class="offer-big">
+      <h6>Premium paket</h6>
+      <span class="offer-price">900-1300<span class="gold">€</span></span>
+      <p>Za stomatološke ordinacije, privatne fakultete, poliklinike, hotele.</p>
+      <div class="offer-btn-wrapper">
+      <button class="offer-btn">Napredni web sajt sa web-shopom</button>
+      <button class="offer-btn">Foto+Video materijal</button>
+      <button class="offer-btn">Vodjenje društvenih mreža(IG+FB)</button>
+      <button class="offer-btn">Email marketing - newsletter</button>
+      <button class="offer-btn">PPC oglašavanje + SEO optimizacija</button>
+    </div>
+    </div>
+    <div class="offer-text-button">
+      <p>
+        <strong>Cene su okvirne i zavise od klijenta do klijenta. </strong> <br>
+        Za konkretnu ponudu javi nam se i besplatno ćemo ti kreirati
+        brief sa dizajnom, ulaganjima i očekivanim rezultatima za tvoj biznis.
+      </p>
+      <a href="#contactform"><button class="main-btn">Kontaktiraj nas</button></a>
+      <p>
+        <strong>Besplatno je </strong> <br>
+        
+      </p>
+    </div>
+    </div>
+    <!-- offers paket end -->
+
+    <!-- contact form start  -->
+    <div class="contactform-container" id="contactform">
+      <div class="contactform-inner-wrapper">
+      <div class="contactform-left-side">
+        <h6>Besplatne konsultacije</h6>
+        <p>Budi slobodan i javi nam se. Poslaćemo ti unikatnu
+          strategiju za razvoj tvog biznis, potpuno besplatno.
+          </p>
+        <img src="/contact-form/Artboard3 1.png" alt="contact-form">
+      </div>
+      <div class="contactform-right-side">
+        <form name="result" onsubmit="SubmitForm(event)">
+       <div class="form"> 
+        <p>Ime i prezime</p>
+        <input
+        id="firstname"
+        type="text"
+        class="form-control"
+        
+      /></div>
+       
+      <div class="form"> 
+        <p>Email</p>
+        <input
+        id="email"
+        type="text"
+        class="form-control"
+        
+      /></div>
+
+      <div class="form"> 
+        <p>Broj telefona</p>
+        <input
+        id="number"
+        type="text"
+        class="form-control"
+        
+      /></div>
+
+      <div class="form"> 
+        <p>Kako možemo da ti pomognemo?</p>
+        <input
+        id="answer"
+        type="text"
+        class="form-control"
+        
+      /></div>
+
+      <div class="form"> 
+        <input
+        type="submit"
+        class="btn btn-primary"
+        value="Pošalji"
+        />
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    </form>    <!-- contact form end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-inner-wrapper">
+        <div class="footer-logo">
+          <div class="navigation-logo">
+            <a href="#"><img src="/footer/footer-logo.png" alt="logo" /></a>
+          </div>
+          <p>An experienced team of digital marketing
+            enthusiasts who can become your partner and
+            help you transform your business on the
+            Internet</p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        
+        
+        
+        <div class="footer-contact">
+        <h6>Kontakt</h6>
+        <p>18000 Niš</p>
+        <p>quantuminnovations74@gmail.com
+          +381 60 0444185</p>
+        </div>
+        <div class="footer-Newsletter">
+        <h6>Newsletter</h6>
+        <p>Prijavite se ukoliko želite da primate novosti i
+          savete na polju internet marketinga i
+          elektronske trgovine.</p>
+        </div>
+      </div>
+
+      </div>
+    </footer>
+
+    <div class="copyright"><p>Copyright © 2023 Quantum Innovations, All rights reserved. Powered by Quantum Innovations.</p></div>
+
+    <!-- footer end -->
+
+    <!-- button to top start  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      Vrati na vrh
+    </button>
+    <!-- button to top end -->
+  </body>
+  <!-- button to top script start -->
+  <script src="btn-to-top.js"></script>
+  <!-- button to top script end -->
+  <!-- hamburger menu start -->
+  <script src="hamburger.js"></script>
+  <!-- hamburger menu end -->
+
+  <!-- carousel start -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="carousel.js"></script>
+  <!-- carousel end -->
+ <script src="contactForm.js"></script>
+</html>
