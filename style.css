@@ -221,7 +221,7 @@ a {
   margin-top: 70px;
 }
 
-.banner-container .main-btn:hover {
+.main-btn:hover {
   opacity: 0.7;
   transform:scale(1.1);
   translate:0.5s;
